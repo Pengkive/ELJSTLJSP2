@@ -54,6 +54,7 @@ public class TestServlet extends HttpServlet {
 		
 		req.setAttribute("memberList", memberList);
 		
+		
 		// forward 방식으로 페이지 이동
 		// <jsp:forward> - 사용불가 (JSP 페이지에서만 사용가능)
 		
